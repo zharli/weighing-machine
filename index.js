@@ -15,9 +15,9 @@ const text = document.getElementById('weightText');
     wimage.src = 'https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/842748/weighing-scale-clipart-xl.png';
     
     const objects = [
-      { x: 50, y: 50, width: 50, height: 50, dy: 0, weight: 2, unit: "kg", imageSrc: 'https://clipart-library.com/img/1653748.png'},
-      { x: 125, y: 50, width: 50, height: 50, dy: 0, weight: 500, unit: "grams", imageSrc: 'https://static.vecteezy.com/system/resources/previews/009/597/886/original/strawberry-fruit-illustration-cartoon-png.png'},
-      { x: 200, y: 50, width: 50, height: 50, dy: 0, weight: 200, unit: "grams", imageSrc: 'https://static.vecteezy.com/system/resources/previews/008/506/550/original/blueberry-fruit-cartoon-png.png' }
+      { x: 50, y: 50, width: 50, height: 50, dy: 0, weight: 2, unit: 'kg', imageSrc: 'https://clipart-library.com/img/1653748.png'},
+      { x: 125, y: 50, width: 50, height: 50, dy: 0, weight: 500, unit: 'grams', imageSrc: 'https://static.vecteezy.com/system/resources/previews/009/597/886/original/strawberry-fruit-illustration-cartoon-png.png'},
+      { x: 200, y: 50, width: 50, height: 50, dy: 0, weight: 200, unit: 'grams', imageSrc: 'https://static.vecteezy.com/system/resources/previews/008/506/550/original/blueberry-fruit-cartoon-png.png' }
     ];
     
     function drawObjects() {
