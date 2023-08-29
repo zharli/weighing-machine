@@ -68,7 +68,7 @@ const text = document.getElementById('weightText');
         if (selectedObject.x == 376 &&
           selectedObject.y == 267){
             isDragging = false;
-            text.textContent = `Weight: ${selectedObject.weight}`;
+            text.textContent = `Weight: ${selectedObject.weight}kg`;
           }
     })
     
